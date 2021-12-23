@@ -1,0 +1,71 @@
+:root {
+  --background-color-primary: #ececec;
+  --background-color-secondary: #fff;
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --text-color: #2e2e2e;
+}
+
+#body {
+  margin: 0;
+}
+
+#main {
+  background-color: var(--background-color-primary);
+  border-radius: 5px;
+  color: var(--text-color);
+  font-family: var(--font-family);
+  margin: 25px 10px;
+}
+#intro {
+  text-align: center;
+  padding-top: 10px;
+}
+#title {
+  font-size: 45px;
+}
+#main-content {
+  margin: 0 10px;
+}
+
+#img-div {
+  background-color: var(--background-color-secondary);
+  padding: 5px 0;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  color: #515151;
+  text-align: center;
+}
+
+#tribute-info {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#timeline-intro {
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+.timeline-entry {
+  padding: 10px;
+}
+
+#qoute {
+  text-align: justify;
+}
+
+#footer {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
